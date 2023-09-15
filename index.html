@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="lightbox">
+             <img id="lightbox-image"  src="https://img.freepik.com/free-photo/closeup-shot-beautiful-purple-petaled-black-eyed-susan-flower-blurred-background_181624-23314.jpg?size=626&ext=jpg&ga=GA1.2.462851386.1694756442&semt=ais" alt="Image-1">
+             <h1 class="lightbox-caption"></h1>
+        </div>
+        
+        <div class="thumbnail">
+            <div class="thumbnail-1">
+                <img  src="https://img.freepik.com/premium-photo/flower-osteospermum-with-unusual-petals-closeup_955152-1153.jpg?size=626&ext=jpg&ga=GA1.2.462851386.1694756442&semt=ais" alt="image1" onclick="displayImage(this)">
+                <p data-caption="Flower">caption1</p>
+            </div>
+            <div class="thumbnail-2">
+                <img src="https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="Image 2" onclick="displayImage(this)">
+                 <p data-caption="Dog">caption2</p>
+            </div>
+            <div class="thumbnail-3">
+                <img src="https://img.freepik.com/free-photo/elephant-artificial-intelligence-image_23-2150404827.jpg" alt="Image 3" onclick="displayImage(this)">
+                 <p data-caption="Elephant">caption2</p>
+            </div>
+
+            <div class="thumbnail-4">
+                <img src="https://vcdn1-english.vnecdn.net/2020/08/25/thac-1598317582-6704-1598317667.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=PIqrHgmfvj30y3-QgLhQmg" alt="Image 4" onclick="displayImage(this)">
+                 <p data-caption="Waterfall">caption2</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
